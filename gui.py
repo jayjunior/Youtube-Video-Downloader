@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QApplication,QMainWindow,QLineEdit, QWidget,QFormLayout,QPushButton,QMessageBox,QLabel
 from PyQt5.QtCore import Qt as al
-import download
+import download,sys
 
 class MainWindow(QMainWindow):
     def __init__(self):
