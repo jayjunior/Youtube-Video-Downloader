@@ -10,13 +10,13 @@ If you are like me and you sometimes prefer to have a youtube video on your mach
 1. ***Make sure you fork the project in the folder where you would want your videos to get downloaded !!!.***
 
 2. Download the required Packages using the commad below in your terminal
-```bash
+```shell
 pip install -r requirements.txt
 ```
 
 3. If your are a developer and like the terminal like I do then you can just run the script as follows
 
-```bash
+```shell
 python3 download.py [video_url]
 ```
 4. If your rather prefer the GUI then go on an use the GUI 
