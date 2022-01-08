@@ -1,15 +1,17 @@
 # YOUTUBE VIDEO DOWNLOADER
 
-## Why ? 
+## Why ?
 
-If you are like me and you sometimes prefer to have a youtube video on your machine rather than in the app , Then you got yourself a saver 🔥 !!! Fork the repo ones and you are good to go forever !! . 
+If you are like me and you sometimes prefer to have a youtube video on your machine rather than in the app , Then you got yourself a saver 🔥 !!! Fork the repo ones and you are good to go forever !! .
 
 ## Usage
 
 ### Required Packages and Prerequisities
-1. ***Make sure you fork the project in the folder where you would want your videos to get downloaded !!!.***
+
+1. **_Make sure you fork the project in the folder where you would want your videos to get downloaded !!!._**
 
 2. Download the required Packages using the commad below in your terminal
+
 ```shell
 pip install -r requirements.txt
 ```
@@ -19,13 +21,13 @@ pip install -r requirements.txt
 ```shell
 python3 download.py [video_url]
 ```
-4. If your rather prefer the GUI then go on an use the GUI 
 
+4. If your rather prefer the GUI then go on an use the GUI run
+
+```shell
+python3 gui.py
+```
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
-
-
