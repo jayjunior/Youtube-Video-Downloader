@@ -7,7 +7,8 @@ If you are like me and you sometimes prefer to have a youtube video on your mach
 ## Usage
 
 ### Required Packages and Prerequisities
-1. Make sure you fork the project in the folder where you would want your videos to get downloaded
+1. ***Make sure you fork the project in the folder where you would want your videos to get downloaded !!!.***
+
 2. Download the required Packages using the commad below in your terminal
 ```bash
 pip install -r requirements.txt
