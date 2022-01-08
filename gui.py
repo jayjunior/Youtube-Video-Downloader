@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QApplication,QMainWindow,QLineEdit, QWidget,QFormLayout,QPushButton,QMessageBox,QLabel
 from PyQt5.QtCore import Qt as al
-import sys,download
+import download
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -49,7 +49,7 @@ class MainWindow(QMainWindow):
 
         path = download.download_video(self.input.text())
         if(path == None):
-            self.create_dialog_box("Something went Wrong !! check the url and the internet connection"")
+            self.create_dialog_box("Something went Wrong !! check the url and the internet connection")
         else:
             self.create_dialog_box("Download Finished!")
             
